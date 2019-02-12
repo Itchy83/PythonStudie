@@ -8,4 +8,4 @@ Sum = sum(TalListe3)            # sum regner snittet ud
 print(Sum)
 Gennemsnit = sum(TalListe3)/len(TalListe3) # udregning af gennemsnittet i tallisten
 print(Gennemsnit)
-"""Hej"""
+"""Hejsa"""
