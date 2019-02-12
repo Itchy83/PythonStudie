@@ -3,3 +3,6 @@ print(Forfattere)
 Forfattere.reverse()
 print(Forfattere)
 
+
+#ny updatering
+
