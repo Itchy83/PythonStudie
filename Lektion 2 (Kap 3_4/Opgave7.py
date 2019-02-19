@@ -8,5 +8,5 @@ print(LastForfattere)
 #                +---+---+---+---+---+---+
 #                | P | y | t | h | o | n |
 #                +---+---+---+---+---+---+
-'''Slice position: 0   1   2   3   4   5   6     Forskel på slice og index
-Index position:   0   1   2   3   4   5'''
+#Slice position: 0   1   2   3   4   5   6     Forskel på slice og index
+#Index position:   0   1   2   3   4   5

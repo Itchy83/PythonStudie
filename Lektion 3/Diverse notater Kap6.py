@@ -7,7 +7,7 @@ while again == True:
     Person = input(": ")
     if Person in Listen:
         print('Ja')
-    if Person not in Listen:
+    elif Person not in Listen:
         print('Nej')
     Igen = input("Vil du spørge om flere? J/N: ")
     if Igen == "J":
