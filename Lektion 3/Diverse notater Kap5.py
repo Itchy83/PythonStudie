@@ -57,3 +57,13 @@ Inviteret = 'Henrik'
 
 if Inviteret in Festliste:
     print('Ja, han er inviteret!')
+
+
+'''------------------------------------------------------------------------------------------------------------'''
+
+Onsdag = True
+
+if Onsdag:
+    print('YES')
+else:
+    print('NO')

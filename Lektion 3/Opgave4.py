@@ -9,9 +9,15 @@ Personer = {
     'christian': 'høgh',
     }
 
-Personer['kaare'] = 'ravn'
+print(Personer)
 
-Personer.update({'kaare': 'ravn'})
+Personer['bjarne'] = 'jensen'
+
+print(Personer)
+
+Personer.update({
+    'kaare': 'ravn',
+    'christian': 'lømbæk'})  # På den her måde kan der tilføjes flere elementer
 
 
 for Navn, Efternavn in Personer.items():
@@ -25,5 +31,8 @@ print('\nListe efter position 1 er slettet')
 for Navn, Efternavn in Personer.items():
     print('\nFornavn: ' + Navn.title())
     print('Efternavn: ' + Efternavn.title())
+
+print(Personer.get('jeppe', 'findes ikke!'))  #Kan bruges så program ikke crasher, findes ikke! printes hvis det ikke findes
+
 
 

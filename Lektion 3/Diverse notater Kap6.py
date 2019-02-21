@@ -2,6 +2,8 @@
 Listen = ['Christian', 'Finn', 'Lars', 'Jeppe', 'Henrik']
 
 again = True
+againv2 = False
+
 while again == True:
     print('Er vedkomne i gæstelisten')
     Person = input(": ")
@@ -9,11 +11,12 @@ while again == True:
         print('Ja')
     elif Person not in Listen:
         print('Nej')
-    Igen = input("Vil du spørge om flere? J/N: ")
+while againv2 == False:
+        Igen = input("Vil du spørge om flere? J/N: ")
     if Igen == "J":
         again = True
     elif Igen == "N":
         again = False
     elif Igen != "J" or "N":
         print('Kommando ikke forstået')
-        again = False
+        againv2 = False
