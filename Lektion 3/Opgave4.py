@@ -17,7 +17,7 @@ print(Personer)
 
 Personer.update({
     'kaare': 'ravn',
-    'christian': 'lømbæk'})  # På den her måde kan der tilføjes flere elementer
+    'christian': 'lønbæk'})  # På den her måde kan der tilføjes flere elementer
 
 
 for Navn, Efternavn in Personer.items():

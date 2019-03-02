@@ -7,3 +7,6 @@ Personer = {
     'finn': 'jensen',
     'christian': 'høgh',
     }
+
+if 'allan' in Personer:
+    print('YES')
