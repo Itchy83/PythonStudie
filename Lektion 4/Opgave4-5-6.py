@@ -65,7 +65,7 @@ while not OpslagOrdbogD_E:
     if OpslagD_E == 'q':
         break
     elif OpslagD_EWW.isalpha():
-        print('Engelsk ord: ' + OrdbogD_E.get(OpslagD_E, 'Ordet er ikke fundt i ordbogen'))
+        print('Engelsk ord: ' + OrdbogD_E.get(OpslagD_E, 'Ordet er ikke fundet i ordbogen'))
     else:
         print('Ordet du ønsker at slå op må kun bestå af bogstaver!')
 
@@ -84,6 +84,6 @@ while not OpslagOrdbogE_D:
     if OpslagE_D == 'q':
         break
     elif OpslagE_DWW.isalpha():
-        print('Dansk ord: ' + OrdbogE_D.get(OpslagE_D, 'Ordet er ikke fundt i ordbogen'))
+        print('Dansk ord: ' + OrdbogE_D.get(OpslagE_D, 'Ordet er ikke fundet i ordbogen'))
     else:
         print('Ordet du ønsker at slå op må kun bestå af bogstaver!')
